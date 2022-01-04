@@ -221,6 +221,7 @@ public class XML2EX extends javax.swing.JFrame {
 
         // Instantiate the Factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        connection = ConexionBASE.getConnection();
 
         try {
 
@@ -267,7 +268,7 @@ public class XML2EX extends javax.swing.JFrame {
                     String monedaLiquidacion = element.getElementsByTagName("moneda_liquidacion").item(0).getTextContent();
                     String instrumentoMonetarioLiquidacion = element.getElementsByTagName("instrumento_monetario_liquidacion").item(0).getTextContent();
                     String claveSucursal = element.getElementsByTagName("clave_sucursal").item(0).getTextContent();
-                    connection = ConexionBASE.getConnection();
+//                    connection = ConexionBASE.getConnection();
                     String sql;
                     sql = "insert into operaciones(trimestre_reportado,clave_organo_regulador,clave_entidad,folio_consecutivo,fecha_hora,tipo_operacion,cuenta_contrato,monto_operacion,moneda,instrumento_monetario,cuenta_contrato_liquidacion,monto_operacion_liquidacion,moneda_liquidacion,instrumento_monetario_liquidacion,clave_sucursal)"
                             + "values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -296,9 +297,11 @@ public class XML2EX extends javax.swing.JFrame {
                     } catch (Exception e) {
                         System.out.println("Ocurrio un error : " + e.getMessage());
 
-                    } finally {
-                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
-                    }
+                    } 
+                    
+//                    finally {
+//                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
+//                    }
 
                 }
 
@@ -307,7 +310,7 @@ public class XML2EX extends javax.swing.JFrame {
 //            for (int t2 = 0; t2 < list3.getLength(); t2++)
             for (int t2 = 0, length = list3.getLength(); t2 < length; t2++) {
                 org.w3c.dom.Node node3 = list3.item(t2);
-                connection = ConexionBASE.getConnection();
+//                connection = ConexionBASE.getConnection();
                 if (node3.getNodeType() == org.w3c.dom.Node.ELEMENT_NODE) {
                     org.w3c.dom.Element element3 = (org.w3c.dom.Element) node3;
                     String nombre = element3.getElementsByTagName("nombre").item(0).getTextContent();
@@ -340,15 +343,15 @@ public class XML2EX extends javax.swing.JFrame {
 
                     } catch (Exception e) {
                         System.out.println("Ocurrio un error : " + e.getMessage());
-                    } finally {
-                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
-                    }
+                    } //finally {
+//                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
+//                    }
 
                 }
             }
             for (int t3 = 0, length = list4.getLength(); t3 < length; t3++) {
                 org.w3c.dom.Node node4 = list4.item(t3);
-                connection = ConexionBASE.getConnection();
+//                connection = ConexionBASE.getConnection();
                 if (node4.getNodeType() == org.w3c.dom.Node.ELEMENT_NODE) {
                     org.w3c.dom.Element element4 = (org.w3c.dom.Element) node4;
                     String nombre = element4.getElementsByTagName("nombre").item(0).getTextContent();
@@ -381,9 +384,8 @@ public class XML2EX extends javax.swing.JFrame {
                     } catch (Exception e) {
                         System.out.println("Ocurrio un error : " + e.getMessage());
 
-                    } finally {
-                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
-                    }
+                    } 
+                    
 //                    System.out.println("c = " + c);
 
                 }
@@ -392,6 +394,10 @@ public class XML2EX extends javax.swing.JFrame {
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
+        finally {
+                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
+                    }
+        
         JOptionPane.showMessageDialog(null, "Operación realizada correctamente");
     }//GEN-LAST:event_jButton1ActionPerformed
 
