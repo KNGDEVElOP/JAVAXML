@@ -406,7 +406,7 @@ public class XML2EX extends javax.swing.JFrame {
         connection = ConexionBASE.getConnection();
         try {
 
-            String sql = "COPY (select * from orden ) to '" + sel + "\\data.csv' delimiter ',' CSV HEADER";
+            String sql = "COPY (select * from orden ) to '" + sel + "\\data.csv' delimiter ',' CSV HEADER ENCODING 'LATIN1'";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.executeUpdate();
             JOptionPane.showMessageDialog(null, "Su archivo esta listo");
