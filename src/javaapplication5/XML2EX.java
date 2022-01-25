@@ -4,13 +4,10 @@
  */
 package javaapplication5;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+
 import java.io.File;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
@@ -48,13 +45,9 @@ public class XML2EX extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jTextField2 = new javax.swing.JTextField();
         jTextField1 = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -109,35 +102,11 @@ public class XML2EX extends javax.swing.JFrame {
 
         jLabel2.setText("MONTO");
 
-        jButton1.setText("jButton1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Id_registro_caracter especial"
-            }
-        ));
-        jScrollPane2.setViewportView(jTable1);
-
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Microsoft-Excel-2013-icon.png"))); // NOI18N
         jButton2.setText("EXPORTAR A CSV");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
-            }
-        });
-
-        jButton3.setText("jButton3");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
             }
         });
 
@@ -151,13 +120,10 @@ public class XML2EX extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton5)
-                            .addComponent(jButton8)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(30, 30, 30)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton8))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(34, 34, 34)
+                                .addGap(226, 226, 226)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -174,9 +140,7 @@ public class XML2EX extends javax.swing.JFrame {
                                         .addComponent(jButton7)
                                         .addGap(0, 0, Short.MAX_VALUE))))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(142, 142, 142)
-                                .addComponent(jButton3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGap(415, 415, 415)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -197,14 +161,11 @@ public class XML2EX extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton8)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton1))
+                                .addComponent(jButton8))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -213,13 +174,11 @@ public class XML2EX extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel2))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton3)
-                                .addGap(12, 12, 12))))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(8, 8, 8)
-                        .addComponent(jButton7)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jButton7)
+                        .addContainerGap())))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
@@ -235,7 +194,7 @@ public class XML2EX extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     String sel = "";
-    public String FILENAME = "";
+    String FILENAME = null;
 
     ResultSetMetaData rsm;
     DefaultTableModel dtm;
@@ -251,7 +210,12 @@ public class XML2EX extends javax.swing.JFrame {
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             sel = chooser.getSelectedFile().getPath();
             System.out.println("El Directorio es : " + sel);
+            
 
+        }
+        
+        else{
+        
         }
 
         try {
@@ -273,6 +237,7 @@ public class XML2EX extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        Caracteresespeciales especiales = new Caracteresespeciales();
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         connection = ConexionBASE.getConnection();
@@ -285,6 +250,11 @@ public class XML2EX extends javax.swing.JFrame {
             System.out.println("El Directorio es : " + FILENAME);
 
         }
+        if(FILENAME==null){
+            JOptionPane.showMessageDialog(null, "Selecciona una ruta");
+            
+        }
+        else{
         try {
 
             // optional, but recommended
@@ -318,19 +288,84 @@ public class XML2EX extends javax.swing.JFrame {
                 if (node.getNodeType() == org.w3c.dom.Node.ELEMENT_NODE) {
 
                     org.w3c.dom.Element element = (org.w3c.dom.Element) node;
+                    int r=temp+1;
                     String folio = element.getElementsByTagName("folio_consecutivo").item(0).getTextContent();
+                    boolean cE=especiales.getSpecialCharacterCount(folio);
+                    if(cE){
+                        System.out.println("Error en linea folio_consecutivo:" +r);
+                        System.out.println("Valor: "+folio);
+                    }
+                
                     String fechah = element.getElementsByTagName("fecha_hora").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(fechah);
+                   if(cE){
+                       System.out.println("Error en linea fecha_hora:" +r);
+                       System.out.println("Valor: "+fechah);
+                   }
                     String tipooperacion = element.getElementsByTagName("tipo_operacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(tipooperacion);
+                    if(cE){
+                     System.out.println("Error en campo tipo_operacion linea : " +r);
+                     System.out.println("Valor: "+tipooperacion);
+                    }
+                    
                     String cuentacontrato = element.getElementsByTagName("cuenta_contrato").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(cuentacontrato);
+                    if(cE){
+                     System.out.println("Error en campo cuenta_contrato linea :" +r);
+                     System.out.println("Valor: "+cuentacontrato);
+                    }
+                    
                     String montooperacion = element.getElementsByTagName("monto_operacion").item(0).getTextContent();
+                     cE=especiales.getSpecialCharacterCount(montooperacion);
+                    if(cE){
+                     System.out.println("Error en campo monto_operacion linea :" +r+" Valor: "+montooperacion);
+                     
+                    }
+                    
                     String moneda = element.getElementsByTagName("moneda").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(moneda);
+                    if(cE){
+                     System.out.println("Error en campo moneda linea :" +r+" Valor: "+moneda );
+                    }
+                    
                     String instrumento = element.getElementsByTagName("instrumento_monetario").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(instrumento);
+                    if(cE){
+                     System.out.println("Error en campo instrumento_monetario linea :" +r+" Valor: "+instrumento);
+                    }
+                    
                     String ccliquidacion = element.getElementsByTagName("cuenta_contrato_liquidacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(ccliquidacion);
+                    if(cE){
+                     System.out.println("Error en campo cuenta_contrato Liquidacion  linea :" +r+" Valor: "+ccliquidacion);
+                    }
+                    
                     String montooperacionLquidacion = element.getElementsByTagName("monto_operacion_liquidacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(montooperacionLquidacion);
+                    if(cE){
+                     System.out.println("Error en campo monto_operacion_liquidacion  linea :" +r+" Valor: "+montooperacionLquidacion);
+                    }
+                    
                     String monedaLiquidacion = element.getElementsByTagName("moneda_liquidacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(monedaLiquidacion);
+                    if(cE){
+                     System.out.println("Error en campo moneda_liquidacion  linea :" +r+"Valor : "+monedaLiquidacion);
+                    }
+                    
                     String instrumentoMonetarioLiquidacion = element.getElementsByTagName("instrumento_monetario_liquidacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(instrumentoMonetarioLiquidacion);
+                    if(cE){
+                     System.out.println("Error en campo instrumentoMonetarioLiquidacion  linea :" +r+" Valor: "+instrumentoMonetarioLiquidacion);
+                    }
+                    
                     String claveSucursal = element.getElementsByTagName("clave_sucursal").item(0).getTextContent();
-//                    connection = ConexionBASE.getConnection();
+                    cE=especiales.getSpecialCharacterCount(claveSucursal);
+                     if(cE){
+                     System.out.println("Error en campo clave_sucursal  linea :" +r+ " Valor: " +claveSucursal);
+                    }
+                    
+//            
                     String sql;
                     sql = "insert into operaciones(trimestre_reportado,clave_organo_regulador,clave_entidad,folio_consecutivo,fecha_hora,tipo_operacion,cuenta_contrato,monto_operacion,moneda,instrumento_monetario,cuenta_contrato_liquidacion,monto_operacion_liquidacion,moneda_liquidacion,instrumento_monetario_liquidacion,clave_sucursal)"
                             + "values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -353,7 +388,7 @@ public class XML2EX extends javax.swing.JFrame {
                         preparedStatement.setString(13, monedaLiquidacion);
                         preparedStatement.setString(14, instrumentoMonetarioLiquidacion);
                         preparedStatement.setString(15, claveSucursal);
-                        System.out.println(preparedStatement);
+                        
 
                         preparedStatement.executeUpdate();
 
@@ -362,29 +397,75 @@ public class XML2EX extends javax.swing.JFrame {
 
                     }
 
-//                    finally {
-//                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
-//                    }
+
                 }
 
             }
-//            for (int temp = 0,length=list.getLength(); temp < length; temp++)
-//            for (int t2 = 0; t2 < list3.getLength(); t2++)
+
             for (int t2 = 0, length = list3.getLength(); t2 < length; t2++) {
                 org.w3c.dom.Node node3 = list3.item(t2);
-//                connection = ConexionBASE.getConnection();
+
                 if (node3.getNodeType() == org.w3c.dom.Node.ELEMENT_NODE) {
                     org.w3c.dom.Element element3 = (org.w3c.dom.Element) node3;
                     String nombre = element3.getElementsByTagName("nombre").item(0).getTextContent();
-                    String apellido = element3.getElementsByTagName("apellido_paterno").item(0).getTextContent();
-                    String apellidom = element3.getElementsByTagName("apellido_materno").item(0).getTextContent();
-                    String fechaNac = element3.getElementsByTagName("fecha_nacimiento").item(0).getTextContent();
-                    String paisNac = element3.getElementsByTagName("pais_nacimiento").item(0).getTextContent();
-                    String paisNacN = element3.getElementsByTagName("pais_nacionalidad").item(0).getTextContent();
-                    String domUni = element3.getElementsByTagName("domicilio_unificado").item(0).getTextContent();
-                    String ciudadP = element3.getElementsByTagName("ciudad_poblacion").item(0).getTextContent();
-                    String colonia = element3.getElementsByTagName("colonia").item(0).getTextContent();
+                    boolean cE=especiales.getSpecialCharacterCount(nombre);
                     c = t2 + 1;
+                    if(cE){
+                        System.out.println("Error en campo nombre  linea :" +c+" valor: "+nombre);
+                        
+                    }
+                    String apellido = element3.getElementsByTagName("apellido_paterno").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(apellido);
+                    if(cE){
+                        System.out.println("Error en campo apellido_paterno  linea :" +c+" valor: "+apellido);
+                        
+                    }
+                    String apellidom = element3.getElementsByTagName("apellido_materno").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(apellidom);
+                    if(cE){
+                        System.out.println("Error en campo apellido_materno  linea :" +c+" valor: "+apellidom);
+                        
+                    }
+                    String fechaNac = element3.getElementsByTagName("fecha_nacimiento").item(0).getTextContent();
+                     cE=especiales.getSpecialCharacterCount(fechaNac);
+                    if(cE){
+                        System.out.println("Error en campo fecha_nacimiento  linea :" +c+" Valor: "+fechaNac);
+                        
+                    }
+                    String paisNac = element3.getElementsByTagName("pais_nacimiento").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(paisNac);
+                    if(cE){
+                        System.out.println("Error en campo pais_nacimiento  linea :" +c+" valor: "+paisNac);
+                        
+                    }
+                    String paisNacN = element3.getElementsByTagName("pais_nacionalidad").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(paisNacN);
+                    if(cE){
+                        System.out.println("Error en campo pais_nacionalidad  linea :" +c+" Valor: "+paisNacN);
+                        
+                    }
+                    String domUni = element3.getElementsByTagName("domicilio_unificado").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(domUni);
+                    if(cE){
+                        System.out.println("Error en campo domicilio_unificado  linea :" +c+" valor: "+domUni);
+                        
+                    }
+                    
+                    String ciudadP = element3.getElementsByTagName("ciudad_poblacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(ciudadP);
+                    if(cE){
+                        System.out.println("Error en campo ciudad_poblacion  linea :" +c+" Valor: "+ciudadP);
+                        
+                    }
+                    
+                    String colonia = element3.getElementsByTagName("colonia").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(colonia);
+                    if(cE){
+                        System.out.println("Error en campo colonia  linea :" +c+" valor: "+colonia);
+                        
+                    }
+                    
+                    
                     String sql = "update operaciones set "
                             + "nombre=?,apellido_paterno=?,apellido_materno=?,fecha_nacimiento=?,pais_nacimiento=?,pais_nacionalidad=?,domicilio_unificado=?,ciudad_poblacion=?,colonia=? "
                             + " where id_reporte= " + c + " ";
@@ -405,26 +486,68 @@ public class XML2EX extends javax.swing.JFrame {
 
                     } catch (Exception e) {
                         System.out.println("Ocurrio un error : " + e.getMessage());
-                    } //finally {
-//                        ConexionBASE.closeAll(connection, preparedStatement, resultSet);
-//                    }
+                    } 
 
                 }
             }
             for (int t3 = 0, length = list4.getLength(); t3 < length; t3++) {
                 org.w3c.dom.Node node4 = list4.item(t3);
-//                connection = ConexionBASE.getConnection();
+
                 if (node4.getNodeType() == org.w3c.dom.Node.ELEMENT_NODE) {
                     org.w3c.dom.Element element4 = (org.w3c.dom.Element) node4;
                     String nombre = element4.getElementsByTagName("nombre").item(0).getTextContent();
+                    boolean cE=especiales.getSpecialCharacterCount(nombre);
+                    if(cE){
+                        System.out.println("Error en campo nombre  linea :" +c+" Valor: "+nombre);
+                        
+                    }
                     String apellido = element4.getElementsByTagName("apellido_paterno").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(apellido);
+                    if(cE){
+                        System.out.println("Error en campo apellido_paterno  linea :" +c+" Valor: "+apellido);
+                        
+                    }
                     String apellidom = element4.getElementsByTagName("apellido_materno").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(apellidom);
+                    if(cE){
+                        System.out.println("Error en campo apellido_materno  linea :" +c+" Valor: "+apellidom);
+                        
+                    }
                     String fechaNac = element4.getElementsByTagName("fecha_nacimiento").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(fechaNac);
+                    if(cE){
+                        System.out.println("Error en campo fecha_nacimiento  linea :" +c+" Valor: "+fechaNac);
+                        
+                    }
                     String paisNacN = element4.getElementsByTagName("pais_nacionalidad").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(paisNacN);
+                    if(cE){
+                        System.out.println("Error en campo pais_nacionalidad  linea :" +c+" Valor: "+paisNacN);
+                        
+                    }
                     String acteco = element4.getElementsByTagName("actividad_economica").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(acteco);
+                    if(cE){
+                        System.out.println("Error en campo actividad_economica  linea :" +c+" Valor: "+acteco);
+                        
+                    }
                     String ciudadP = element4.getElementsByTagName("ciudad_poblacion").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(ciudadP);
+                    if(cE){
+                        System.out.println("Error en campo ciudad_poblacion  linea :" +c+" Valor: "+ciudadP);
+                        
+                    }
                     String colonia = element4.getElementsByTagName("colonia").item(0).getTextContent();
+                    cE=especiales.getSpecialCharacterCount(colonia);
+                    if(cE){
+                        System.out.println("Error en campo colonia  linea :" +c+" Valor: "+colonia);
+                        
+                    }
                     String domUni = element4.getElementsByTagName("domicilio_unificado").item(0).getTextContent();
+                    if(cE){
+                        System.out.println("Error en campo domicilio_unificado  linea :" +c+" Valor: "+domUni);
+                        
+                    }
                     c = ++c;
                     String sql = "update operaciones set "
                             + "nombre_pf=?,apellido_paterno_pf=?,apellido_materno_pf=?,fecha_nacimiento_pf=?,pais_nacionalidad_pf=?,actividad_economica_pf=?,domicilio_unificado_pf=?,ciudad_poblacion_pf=?,colonia_pf=?"
@@ -447,6 +570,8 @@ public class XML2EX extends javax.swing.JFrame {
                         System.out.println("Ocurrio un error : " + e.getMessage());
 
                     }
+                    
+                    
 
 //                    System.out.println("c = " + c);
                 }
@@ -494,6 +619,8 @@ public class XML2EX extends javax.swing.JFrame {
         }
 
         JOptionPane.showMessageDialog(null, "Operación realizada correctamente");
+        FILENAME=null;
+        }
 
 
     }//GEN-LAST:event_jButton5ActionPerformed
@@ -524,56 +651,6 @@ public class XML2EX extends javax.swing.JFrame {
             ConexionBASE.closeAll(connection, preparedStatement, resultSet);
         }
     }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-
-        connection = ConexionBASE.getConnection();
-        
-        
-        try {
-             String sql = "select id_reporte from orden where nombre like '%°%' or apellido_paterno like '%°%' or "
-                    + "apellido_materno like '%°%' or fecha_nacimiento like '%°%' or "
-                    + "pais_nacimiento like '%°%' or pais_nacionalidad like '%°%' or "
-                    + "domicilio_unificado like '%°%' or ciudad_poblacion like '%°%' or "
-                    + "colonia like '%°%' or nombre_pf like '%°%' or "
-                    + "apellido_paterno_pf like '%°%' or apellido_materno_pf like '%°%' or "
-                    + "fecha_nacimiento_pf like '%°%' or pais_nacionalidad_pf like '%°%'  or "
-                    + "actividad_economica_pf like '%°%' or domicilio_unificado_pf like '%°%' or "
-                    + "ciudad_poblacion_pf like '%°%' or colonia_pf like '%°%'   ";
-            preparedStatement = connection.prepareStatement(sql);
-            resultSet = preparedStatement.executeQuery();
-            rsm = resultSet.getMetaData();
-            ArrayList<Object[]> data = new ArrayList<>();
-            while (resultSet.next()) {
-                Object[] rows = new Object[rsm.getColumnCount()];
-                for (int i = 0; i < rows.length; i++) {
-                    rows[i] = resultSet.getObject(i + 1);
-                }
-                data.add(rows);
-            }
-            dtm = (DefaultTableModel) this.jTable1.getModel();
-            for (int i = 0; i < data.size(); i++) {
-                dtm.addRow(data.get(i));
-
-            }
-
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(rootPane, e.getMessage());
-        }
-        
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-        
-        String map="jin122/ ()&&";
-        Caracteresespeciales caracteresEspeciales1 = new Caracteresespeciales();
-        var dot=caracteresEspeciales1.getSpecialCharacterCount(map);
-        System.out.println(dot);
-        
-       
-    }//GEN-LAST:event_jButton3ActionPerformed
 
     public static void main(String args[]) throws Exception {
 
@@ -609,9 +686,7 @@ public class XML2EX extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -619,8 +694,6 @@ public class XML2EX extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;

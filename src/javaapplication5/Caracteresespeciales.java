@@ -19,7 +19,7 @@ public class Caracteresespeciales {
          System.out.println("Valor de cadena invalido");
          
      }
-     Pattern p = Pattern.compile("[^A-Za-z0-9-., Ññ]");
+     Pattern p = Pattern.compile("[^A-Z0-9-., Ñ]");
      Matcher m = p.matcher(s);
     // boolean b = m.matches();
      boolean b = m.find();
@@ -28,6 +28,7 @@ public class Caracteresespeciales {
      }
      else{
         return false;
+        
      
      }
      
