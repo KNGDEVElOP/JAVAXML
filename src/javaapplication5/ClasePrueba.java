@@ -35,7 +35,7 @@ public class ClasePrueba {
             DocumentBuilder db = dbf.newDocumentBuilder();
             // optional, but recommended
             // process XML securely, avoid attacks like XML External Entities (XXE)
-            //dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+            dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
             // parse XML file
             
 

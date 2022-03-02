@@ -27,53 +27,32 @@
               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButton5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="267" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jLabel1" min="-2" pref="182" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="60" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Component id="jLabel2" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jTextField1" min="-2" pref="155" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="jTextField2" min="-2" pref="155" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="452" max="-2" attributes="0"/>
-                                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="182" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="jTextField2" min="-2" pref="155" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jPanel1" max="32767" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="471" max="-2" attributes="0"/>
-                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="122" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jTextField1" min="-2" pref="155" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="jScrollPane1" min="-2" pref="1370" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -83,72 +62,42 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="616" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jButton5" min="-2" pref="52" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jButton8" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel1" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                  <Component id="jButton5" min="-2" pref="52" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="label1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="569" max="-2" attributes="0"/>
-                      <Component id="jPanel1" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-    </Container>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
       <Properties>
         <Property name="autoscrolls" type="boolean" value="true"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[160, 160]"/>
+        </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTable2.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);"/>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select * from  operaciones &quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                rsm = resultSet.getMetaData();&#xa;                ArrayList&lt;Object[]&gt; data = new ArrayList&lt;&gt;();&#xa;                while (resultSet.next()) {&#xa;                    Object[] rows = new Object[rsm.getColumnCount()];&#xa;                    for (int i = 0; i &lt; rows.length; i++) {&#xa;                        rows[i] = resultSet.getObject(i + 1);&#xa;                    }&#xa;                    data.add(rows);&#xa;                }&#xa;                dtm = (DefaultTableModel) this.jTable2.getModel();&#xa;                for (int i = 0; i &lt; data.size(); i++) {&#xa;                    dtm.addRow(data.get(i));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                JOptionPane.showMessageDialog(rootPane, e.getMessage());&#xa;            }"/>
+      </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
@@ -373,14 +322,6 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="jButton7">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="BORRAR TABLA"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JButton" name="jButton5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -399,22 +340,26 @@
         <Property name="text" type="java.lang.String" value="NUMERO DE OPERACIONES"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="LIMPIAR BD"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="MONTO"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select count(*) as OPERACIONES  from operaciones&quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jTextField2.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select SUM (monto_operacion :: Double PRECISION ) as monto from operaciones&quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jTextField1.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
@@ -426,6 +371,25 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="25" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel3"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select fecha_modificacion from modificaciones order by id_modificacion desc limit 1 &quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jLabel3.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
+      </AuxValues>
+    </Component>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FECHA/HORA ULTIMA MODIFICACION"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
