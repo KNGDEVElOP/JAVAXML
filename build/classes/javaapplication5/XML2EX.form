@@ -24,35 +24,81 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="label1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" min="-2" pref="267" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel1" min="-2" pref="182" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                              <Component id="jTextField2" min="-2" pref="155" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel2" min="-2" pref="122" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jTextField1" min="-2" pref="155" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jScrollPane1" min="-2" pref="1370" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cargar" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Especiales" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="jButton6" min="-2" pref="250" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="1" min="-2" pref="287" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="contiene" min="-2" max="-2" attributes="0"/>
+                                  <Component id="todas" min="-2" max="-2" attributes="0"/>
+                                  <Component id="igual" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Termina" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="empieza" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="sucursales" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Codigo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="campo41" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="REVISAR" min="-2" pref="123" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Opciones" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="valor" min="-2" pref="135" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="294" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Generar" max="32767" attributes="0"/>
+                          <Component id="jButton1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -61,27 +107,84 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="616" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="367" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jButton5" min="-2" pref="52" max="-2" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel1" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Opciones" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="Generar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane2" min="-2" pref="139" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jButton2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="label1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="cargar" min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="56" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton6" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Especiales" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jSeparator1" alignment="0" pref="291" max="32767" attributes="0"/>
+                          <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="41" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Codigo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sucursales" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="campo41" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="empieza" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Termina" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="igual" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="contiene" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="todas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="REVISAR" min="-2" pref="45" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -96,7 +199,7 @@
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTable2.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);"/>
-        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select * from  operaciones &quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                rsm = resultSet.getMetaData();&#xa;                ArrayList&lt;Object[]&gt; data = new ArrayList&lt;&gt;();&#xa;                while (resultSet.next()) {&#xa;                    Object[] rows = new Object[rsm.getColumnCount()];&#xa;                    for (int i = 0; i &lt; rows.length; i++) {&#xa;                        rows[i] = resultSet.getObject(i + 1);&#xa;                    }&#xa;                    data.add(rows);&#xa;                }&#xa;                dtm = (DefaultTableModel) this.jTable2.getModel();&#xa;                for (int i = 0; i &lt; data.size(); i++) {&#xa;                    dtm.addRow(data.get(i));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                JOptionPane.showMessageDialog(rootPane, e.getMessage());&#xa;            }"/>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;Select * from reportes_inusuales order by id_reporte&quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                rsm = resultSet.getMetaData();&#xa;                ArrayList&lt;Object[]&gt; data = new ArrayList&lt;&gt;();&#xa;                while (resultSet.next()) {&#xa;                    Object[] rows = new Object[rsm.getColumnCount()];&#xa;                    for (int i = 0; i &lt; rows.length; i++) {&#xa;                        rows[i] = resultSet.getObject(i + 1);&#xa;                    }&#xa;                    data.add(rows);&#xa;                }&#xa;                dtm = (DefaultTableModel) this.jTable2.getModel();&#xa;                for (int i = 0; i &lt; data.size(); i++) {&#xa;                    dtm.addRow(data.get(i));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                JOptionPane.showMessageDialog(rootPane, e.getMessage());&#xa;            }"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
@@ -104,45 +207,93 @@
         <Component class="javax.swing.JTable" name="jTable2">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="34" rowCount="0">
-                <Column editable="true" title="id_reporte" type="java.lang.Object"/>
-                <Column editable="true" title="trimestre_reportado" type="java.lang.Object"/>
-                <Column editable="true" title="clave_organo_regulador" type="java.lang.Object"/>
-                <Column editable="true" title="clave_entidad" type="java.lang.Object"/>
-                <Column editable="true" title="folio_consecutivo" type="java.lang.Object"/>
-                <Column editable="true" title="fecha_hora" type="java.lang.Object"/>
-                <Column editable="true" title="tipo_operacion" type="java.lang.Object"/>
-                <Column editable="true" title="cuenta_contrato" type="java.lang.Object"/>
-                <Column editable="true" title="monto_operacion" type="java.lang.Object"/>
-                <Column editable="true" title="moneda" type="java.lang.Object"/>
-                <Column editable="true" title="Instrumento monetario" type="java.lang.Object"/>
-                <Column editable="true" title="cuenta_contrato_liquidacion" type="java.lang.Object"/>
-                <Column editable="true" title="Monto_operacion_liquidacion" type="java.lang.Object"/>
-                <Column editable="true" title="moneda_liquidacion" type="java.lang.Object"/>
-                <Column editable="true" title="instrumento_monetario_liquidacion" type="java.lang.Object"/>
-                <Column editable="true" title="clave_sucursal" type="java.lang.Object"/>
-                <Column editable="true" title="nombre" type="java.lang.Object"/>
-                <Column editable="true" title="apellido_paterno" type="java.lang.Object"/>
-                <Column editable="true" title="apellido_materno" type="java.lang.Object"/>
-                <Column editable="true" title="fecha_nacimiento" type="java.lang.Object"/>
-                <Column editable="true" title="pais_nacimiento" type="java.lang.Object"/>
-                <Column editable="true" title="pais_nacionalidad" type="java.lang.Object"/>
-                <Column editable="true" title="domicilio_unificado" type="java.lang.Object"/>
-                <Column editable="true" title="ciudad_poblacion" type="java.lang.Object"/>
-                <Column editable="true" title="colonia" type="java.lang.Object"/>
-                <Column editable="true" title="nombre_pf" type="java.lang.Object"/>
-                <Column editable="true" title="apellido_paterno_pf" type="java.lang.Object"/>
-                <Column editable="true" title="apellido_materno_pf" type="java.lang.Object"/>
-                <Column editable="true" title="fecha_nacimiento_pf" type="java.lang.Object"/>
-                <Column editable="true" title="pais_nacionalidad_pf" type="java.lang.Object"/>
-                <Column editable="true" title="actividad_economica_pf" type="java.lang.Object"/>
-                <Column editable="true" title="domicilio_unificado_pf" type="java.lang.Object"/>
-                <Column editable="true" title="ciudad_poblacion_pf" type="java.lang.Object"/>
-                <Column editable="true" title="colonia_pf" type="java.lang.Object"/>
+              <Table columnCount="42" rowCount="0">
+                <Column editable="true" title="ID REPORTE" type="java.lang.Object"/>
+                <Column editable="true" title="TIPO DE REPORTE" type="java.lang.Object"/>
+                <Column editable="true" title="PERIODO DEL REPORTE" type="java.lang.Object"/>
+                <Column editable="true" title="FOLIO" type="java.lang.Object"/>
+                <Column editable="true" title="ORGANO SUPERVISOR" type="java.lang.Object"/>
+                <Column editable="true" title="CLAVE DEL SUJETO OBLIGADO" type="java.lang.Object"/>
+                <Column editable="true" title="LOCALIDAD" type="java.lang.Object"/>
+                <Column editable="true" title="SUCURSAL" type="java.lang.Object"/>
+                <Column editable="true" title="TIPO DE OPERACION" type="java.lang.Object"/>
+                <Column editable="true" title="INSTRUMENTO MONETARIO" type="java.lang.Object"/>
+                <Column editable="true" title="NUMERO DE CUENTA" type="java.lang.Object"/>
+                <Column editable="true" title="MONTO" type="java.lang.Object"/>
+                <Column editable="true" title="MONEDA" type="java.lang.Object"/>
+                <Column editable="true" title="FECHA DE LA OPERACION" type="java.lang.Object"/>
+                <Column editable="true" title="FECHA DE DETECCION DE LA OPERACION*" type="java.lang.Object"/>
+                <Column editable="true" title="NACIONALIDADd" type="java.lang.Object"/>
+                <Column editable="true" title="TIPO DE PERSONA" type="java.lang.Object"/>
+                <Column editable="true" title="RAZON SOCIAL O DENOMINACION" type="java.lang.Object"/>
+                <Column editable="true" title="NOMBRE" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO PATERNO" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO MATERNO" type="java.lang.Object"/>
+                <Column editable="true" title="RFC" type="java.lang.Object"/>
+                <Column editable="true" title="CURP" type="java.lang.Object"/>
+                <Column editable="true" title="FECHA DE NACIMIENTO" type="java.lang.Object"/>
+                <Column editable="true" title="DOMICILIO" type="java.lang.Object"/>
+                <Column editable="true" title="COLONIA" type="java.lang.Object"/>
+                <Column editable="true" title="CIUDAD" type="java.lang.Object"/>
+                <Column editable="true" title="TELEFONO" type="java.lang.Object"/>
+                <Column editable="true" title="ACTIVIDAD ECONOMICA" type="java.lang.Object"/>
+                <Column editable="true" title="AGENTE O APODERADO DE SEGUROS NOMBRE" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO PATERNO**" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO MATERNO**" type="java.lang.Object"/>
+                <Column editable="true" title="RFC**" type="java.lang.Object"/>
+                <Column editable="true" title="CURP**" type="java.lang.Object"/>
+                <Column editable="true" title="CONSECUTIVO DE CUENTAS Y/O PERSONAS RELACIONADAS *" type="java.lang.Object"/>
+                <Column editable="true" title="NUMERO DE CUENTA" type="java.lang.Object"/>
+                <Column editable="true" title="CLAVE DEL SUJETO OBLIGADO" type="java.lang.Object"/>
+                <Column editable="true" title="NOMBRE DEL TITULAR" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO PATERNO*" type="java.lang.Object"/>
+                <Column editable="true" title="APELLIDO MATERNO*" type="java.lang.Object"/>
+                <Column editable="true" title="DESCRIPCION DE LA OPERACION*" type="java.lang.Object"/>
+                <Column editable="true" title="RAZONES POR LAS QUE EL ACTO U OPERACION SE CONSIDERA INUSUAL O PREOCUPANTE*" type="java.lang.Object"/>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
               <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
                 <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
                   <Title/>
                   <Editor/>
@@ -322,74 +473,229 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="jButton5">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Imagenes/xml-icon.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="SELECCIONAR XML"/>
-        <Property name="defaultCapable" type="boolean" value="false"/>
-        <Property name="name" type="java.lang.String" value="SeleccionarXml" noResource="true"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="NUMERO DE OPERACIONES"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="MONTO"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
-      </Events>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select count(*) as OPERACIONES  from operaciones&quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jTextField2.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
-      </AuxValues>
-    </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
-      </Events>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select SUM (monto_operacion :: Double PRECISION ) as monto from operaciones&quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jTextField1.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
-      </AuxValues>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="cargar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/Imagenes/Microsoft-Excel-2013-icon.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="EXPORTAR A CSV"/>
+        <Property name="text" type="java.lang.String" value="CARGAR CSV "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="empieza">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empieza con (?%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Termina">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Termina con (%?)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="igual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Es igual a (=)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="contiene">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contiene (%?%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="todas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Todas las condiciones(*)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BORRAR REGISTRO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="REVISAR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REVISAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="REVISARActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Opciones">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="NOMBRE_BLOQUE_1"/>
+            <StringItem index="1" value="NOMBRE_BLOQUE_2"/>
+            <StringItem index="2" value="NOMBRE_BLOQUE_3"/>
+            <StringItem index="3" value="NOMBRE_BLOQUE_4"/>
+            <StringItem index="4" value="NOMBRE_BLOQUE_5"/>
+            <StringItem index="5" value="NOMBRE_BLOQUE_6"/>
+            <StringItem index="6" value="NOMBRE_BLOQUE_7"/>
+            <StringItem index="7" value="NOMBRE_BLOQUE_8"/>
+            <StringItem index="8" value="NOMBRE_BLOQUE_9"/>
+            <StringItem index="9" value="DIRECCION_BLOQUE_1"/>
+            <StringItem index="10" value="DIRECCION_BLOQUE_2"/>
+            <StringItem index="11" value="COLONIA_BLOQUE_1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OpcionesActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Codigo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo postal "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Generar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GENERAR ARCHIVOS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GenerarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/bank-icon.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CARGAR SUCURSALES CSV"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JCheckBox" name="sucursales">
       <Properties>
+        <Property name="text" type="java.lang.String" value="Sucursales no encontradas"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="0">
+                <Column editable="true" title="IDENTIFICADOR" type="java.lang.Object"/>
+                <Column editable="true" title="VALOR" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VER PARAMETROS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AGREGAR PARAMETROS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="valor">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Especiales">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BUSQUEDA CARACTERES ESPECIALES"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EspecialesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Yu Gothic" size="18" style="1"/>
+          <Font name="Segoe UI" size="18" style="0"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="25" green="0" red="ff" type="rgb"/>
+          <Color blue="33" green="33" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel3"/>
+        <Property name="text" type="java.lang.String" value="CONDICIONES"/>
       </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa;                connection = ConexionBASE.getConnection();&#xa;                String sql = &quot;select fecha_modificacion from modificaciones order by id_modificacion desc limit 1 &quot;;&#xa;                preparedStatement = connection.prepareStatement(sql);&#xa;                resultSet = preparedStatement.executeQuery();&#xa;                while (resultSet.next()) {&#xa;                    &#xa;                    jLabel3.setText(resultSet.getString(1));&#xa;                }&#xa;            } catch (Exception e) {&#xa;                e.printStackTrace();&#xa;            } finally {&#xa;                ConexionBASE.closeAll(connection, preparedStatement, resultSet);&#xa;            }"/>
-      </AuxValues>
     </Component>
-    <Component class="java.awt.Label" name="label1">
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="FECHA/HORA ULTIMA MODIFICACION"/>
+        <Property name="orientation" type="int" value="1"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="campo41">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campo 41 importe"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CARGAR ARCHIVO ORIGEN"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

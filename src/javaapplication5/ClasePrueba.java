@@ -101,7 +101,7 @@ public class ClasePrueba {
                      System.out.println("Error en campo instrumento_monetario linea :" +r);
                     }
                     
-                    String ccliquidacion = element.getElementsByTagName("cuenta_contrato_liquidacion").item(0).getTextContent();
+                    String ccliquidacion = element.getElementsByTagName ("cuenta_contrato_liquidacion").item(0).getTextContent();
                     cE=especiales.getSpecialCharacterCount(ccliquidacion);
                     if(cE){
                      System.out.println("Error en campo cuenta_contrato Liquidacion  linea :" +r);
@@ -263,6 +263,9 @@ public class ClasePrueba {
             }
         } catch (SAXException | IOException e) {
             e.printStackTrace();
+        }
+        finally{
+        
         }
 
     }

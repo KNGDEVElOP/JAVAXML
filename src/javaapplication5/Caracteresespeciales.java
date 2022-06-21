@@ -16,10 +16,11 @@ public class Caracteresespeciales {
     
     public boolean getSpecialCharacterCount (String s) {
      if (s == null || s.trim().isEmpty()) {
-         System.out.println("Valor de cadena invalido");
+   System.out.println("Valor de cadena invalido");
+   return false;
          
      }
-     Pattern p = Pattern.compile("[^A-Z0-9-., Ñ]");
+     Pattern p = Pattern.compile("[^(A-Z0-9-., Ñ+)/\\ ]");
      Matcher m = p.matcher(s);
     // boolean b = m.matches();
      boolean b = m.find();
